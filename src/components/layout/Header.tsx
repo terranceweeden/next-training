@@ -20,7 +20,9 @@ export default function Header() {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link href="/" className="flex items-center gap-2">
           <Camera className="h-8 w-8 text-amber-400" />
-          <span className="text-xl font-bold text-white">PhotoArt</span>
+          <span className="text-xl font-bold text-white">
+            Simple Act Captured
+          </span>
         </Link>
 
         <nav className="hidden md:flex gap-8">

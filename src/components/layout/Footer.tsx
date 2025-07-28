@@ -125,12 +125,12 @@ export default function Footer() {
             placeholder="Your email"
             className="px-3 py-2 bg-gray-800 text-white rounded-l focus:outline-none focus:ring-1 focus:ring-amber-400"
           />
-          <button
+          {/* <button
             type="submit"
             className="bg-amber-500 hover:bg-amber-600 px-4 py-2 rounded-r font-medium"
           >
             Join
-          </button>
+          </button> */}
           {/* <button
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="fixed bottom-6 right-6 bg-amber-500 p-3 rounded-full shadow-lg hover:bg-amber-600 transition-colors"
